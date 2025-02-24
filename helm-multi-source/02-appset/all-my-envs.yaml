@@ -58,7 +58,7 @@ spec:
               - $values/my-values/env-type/{{.type}}-values.yaml
               - $values/my-values/regions/{{.region}}-values.yaml
               - $values/my-values/envs/{{.env}}-values.yaml
-        - repoURL: 'https://github.com/bdriggs/gitops-cert-level-3-examples.git'
+        - repoURL: https://github.com/bdriggs/gitops-cert-level-3-examples.git
           targetRevision: HEAD
           ref: values
       # Destination cluster and namespace to deploy the application
